@@ -23,39 +23,168 @@
     <header>
         <nav class="navbar">
             <a href="#home" class="logo">Prakriti</a>
-
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
+            
         </nav>
     </header>
 
     <main>
 
-        <section id="home">
-            <h1>Hi, I'm Prakriti Pokharel</h1>
+       <section id="home" class="hero">
+    <div class="hero-content">
 
-            <h2>QA Automation Engineer | SDET</h2>
+        <p class="hero-label">
+            Hello, I’m
+        </p>
 
-            <p>
-                I build reliable automation solutions using Python,
-                Playwright, Pytest, and modern software testing practices.
-            </p>
+        <h1>
+            Prakriti Pokharel
+        </h1>
 
-            <div class="hero-actions">
-                <a href="#projects">View My Projects</a>
-                <a href="assets/resume.pdf">Download Resume</a>
+        <h2>
+            QA Automation Engineer | SDET
+        </h2>
+
+        <p class="hero-description">
+            I design reliable test automation solutions using Python,
+            Playwright, and Pytest. My experience includes web application
+            testing, cross-browser automation, AI feature validation,
+            defect investigation, and CI/CD integration.
+        </p>
+
+        <div class="hero-technologies">
+            <span>Python</span>
+            <span>Playwright</span>
+            <span>Pytest</span>
+            <span>GitHub Actions</span>
+        </div>
+
+        <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+                View Projects
+            </a>
+
+            <a
+                href="assets/resume.pdf"
+                class="btn btn-secondary"
+                target="_blank"
+            >
+                View Resume
+            </a>
+        </div>
+
+        <div class="hero-socials">
+            <a
+                href="https://github.com/pprakriti"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+            <a href="#contact">
+                Contact Me
+            </a>
+        </div>
+
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+        <div class="code-card">
+
+            <div class="code-card-header">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </section>
 
-        <section id="about">
+            <pre><code><span class="code-keyword">def</span> ensure_quality():
+    test_ui()
+    validate_results()
+    automate_regression()
+    return <span class="code-string">"Reliable Software"</span></code></pre>
+
+        </div>
+    </div>
+</section>
+
+       <section id="about" class="about">
+    <div class="section-container">
+
+        <div class="section-heading">
+            <p class="section-label">Get to know me</p>
             <h2>About Me</h2>
-        </section>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <span>PP</span>
+                </div>
+            </div>
+
+            <div class="about-text">
+
+                <h3>
+                    Building reliable software through thoughtful testing
+                    and automation.
+                </h3>
+
+                <p>
+                    I am a QA professional with experience in manual and
+                    automated testing of web applications. I enjoy finding
+                    defects, understanding how systems behave, and building
+                    automation that makes testing faster and more reliable.
+                </p>
+
+                <p>
+                    My recent work includes building a Playwright automation
+                    framework from scratch using Python and Pytest. The
+                    framework uses the Page Object Model, data-driven testing,
+                    smoke and regression suites, cross-browser execution,
+                    automated reporting, and GitHub Actions CI/CD.
+                </p>
+
+                <p>
+                    I am continuing to grow my skills in software development
+                    and test automation with the goal of building reliable,
+                    maintainable, and scalable testing solutions.
+                </p>
+
+                <div class="about-highlights">
+
+                    <div class="highlight">
+                        <strong>Web Testing</strong>
+                        <span>Manual & Automation</span>
+                    </div>
+
+                    <div class="highlight">
+                        <strong>Automation</strong>
+                        <span>Python • Playwright • Pytest</span>
+                    </div>
+
+                    <div class="highlight">
+                        <strong>Quality</strong>
+                        <span>Functional • Regression • Smoke</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
         <section id="skills">
             <h2>Skills</h2>
